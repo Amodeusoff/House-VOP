@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HousePOV</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="#" class="logo"
+          ><img src="/images/logo.svg" alt="логотип"
+        /></a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#">Про комплекс</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Район</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Каталог квартир</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Іпотека</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <main>
+      <section class="hero">
+        <h1 class="hero__title title">
+          Житловий комплекс в історичному центрі
+        </h1>
+        <address class="address">
+          <a class="address__link" href="https://goo.gl/maps/QDBW1WvoKEBcuzTX6"
+            >вул. Садова 10-15</a
+          >
+          <a class="address__link" href="tel:+380991234567"
+            >+38 (099) 123-45-67</a
+          >
+        </address>
+      </section>
+      <section class="features">
+        <h2 class="visually-hidden title">Features</h2>
+        <ul class="features__list">
+          <li class="features__item">
+            <p>Поряд історичні парки та сквери</p>
+          </li>
+          <li class="features__item">
+            <p>Повністю облаштований</p>
+          </li>
+          <li class="features__item">
+            <p>10 фонтанів на території</p>
+          </li>
+          <li class="features__item">
+            <p>6 км велодоріжек</p>
+          </li>
+        </ul>
+      </section>
+      <div class="container">
+        <section class="apartments">
+          <h2 class="apartments__title title">Наші квартири</h2>
+          <ul class="apartments__list">
+            <li class="apartments__item">
+              <div class="apartments__img">
+                <img class="aprt" src="/images/apartment1.jpg" alt="" />
+                <p>Стандарт — 1 поверх</p>
+              </div>
+            </li>
+            <li class="apartments__item">
+              <figure>
+                <img
+                  class="apartments__img"
+                  src="/images/apartment2.jpg"
+                  alt="квартира-студія"
+                />
+                <figcaption>Комфорт — 2 поверхи</figcaption>
+              </figure>
+            </li>
+            <li class="apartments__item">
+              <figure>
+                <img
+                  class="apartments__img"
+                  src="/images/apartment1.jpg"
+                  alt="квартира-студія"
+                />
+                <figcaption>Люкс — 3 поверхи</figcaption>
+              </figure>
+            </li>
+            <li class="apartments__item">
+              <figure>
+                <img
+                  class="apartments__img"
+                  src="/images/apartment2.jpg"
+                  alt="квартира-студія"
+                />
+                <figcaption>Супер Люкс — 4 поверхи</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="container">
+        <section class="price">
+          <h2 class="price__title title">Ціни</h2>
+          <table class="price__table">
+            <caption>
+              Каталог типів квартир за ціною
+            </caption>
+            <thead>
+              <tr>
+                <th>Квартира</th>
+                <th>Поверховість</th>
+                <th>Ціна</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Стандарт</td>
+                <td>1</td>
+                <td>30000$</td>
+              </tr>
+              <tr>
+                <td>Комфорт</td>
+                <td>2</td>
+                <td>40000$</td>
+              </tr>
+              <tr>
+                <td>Люкс</td>
+                <td>3</td>
+                <td>50000$</td>
+              </tr>
+              <tr>
+                <td>Супер Люкс</td>
+                <td>4</td>
+                <td>60000$</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>Разом</td>
+                <td>10</td>
+                <td>180000$</td>
+              </tr>
+            </tfoot>
+          </table>
+        </section>
+      </div>
+      <div class="container">
+        <section class="cta">
+          <div class="cta__info">
+            <h2 class="cta__title title">Хочете подивитися?</h2>
+            <p class="cta__descr">
+              Житловий комплекс в історичному центрі міста HouseVOP завершив
+              будівництво та здав об’єкт в експлаутацію 11 березня 2021 року.
+              Якщо ви маєте бажання подивитися квартиру, чекаємо на Вас. Тут
+              просто повинен бути будь-який текст, для того щоб збільшити його
+              об’єм, тому що фанатазії придумати щось нове - вже немає. Якщо у
+              когось є ідея - завжди велкам!
+            </p>
+          </div>
+          <form action="" class="cta__form">
+            <input type="text" />
+            <input type="text" />
+            <input type="text" />
+            <input type="text" />
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

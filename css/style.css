@@ -1,0 +1,183 @@
+body {
+  font-family:'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+  background-color: #242B33;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.nav__list {
+  display: flex;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+ color: #D4C17F;
+ text-decoration: underline;
+}
+
+.hero { 
+ padding: 200px 0 74px;
+ background-image: linear-gradient(180deg, #242B33 6.56%, rgba(36, 43, 51, 0.3) 50.31%, #242B33 89.37%), url(/images/hero-background.jpg);
+ background-size:cover;
+ background-position: center;
+ 
+}
+
+.address {
+  text-align: center;
+  margin-top: 340px;
+}
+
+.address__link:not(:last-child) {
+  margin-right: 128px;
+}
+
+.address__link:hover,
+.address__link:focus {
+ color: #D4C17F;
+ text-decoration: underline;
+}
+
+.hero__title {
+  margin: 0 auto;
+  text-align: center;
+  width: 556px;
+  font-size: 48px;
+}
+
+.title {
+  font-family: 'Playfair Display', sans-serif;
+  color: #D4C17F;
+}
+
+.features {
+  font-size: 20px;
+  line-height: 1.35;
+  padding: 100px 563px 250px;
+}
+.features__list {
+  justify-content: space-between;
+  display: flex;
+}
+
+.features__item {
+  text-align: center;
+}
+
+.features__item:not(:last-child) {
+  margin-right: 68px;
+}
+
+.apartments {
+  padding: 0 0 100px;
+}
+.apartments__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: -28px;
+}
+
+.apartments__item {
+  margin-bottom: 28px;
+}
+
+.apartments__img {
+  background-image: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%), url(/images/apartment1.jpg);
+}
+
+.aprt {
+  background-image: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%);
+}
+
+.price__table {
+  width: 100%;
+}
+caption {
+  text-align: left;
+  margin-bottom: 22px;
+}
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid #FFFFFF;
+  font-size: 24px;
+  padding: 13px 16px;
+}
+
+.cta {
+  display: flex;
+  justify-content: space-between;
+  padding: 175px 0 150px;
+}
+
+.cta__info {
+  width: 450px;
+}
+
+.cta__form {
+  width: 588px;
+}
+
